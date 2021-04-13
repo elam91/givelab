@@ -76,7 +76,6 @@ def daily_mission():
             go_to_givelab(user["email"],user["password"],url)
             time.sleep(10)
 
-daily_mission()
 schedule.every(1450).minutes.do(daily_mission)
 
 
