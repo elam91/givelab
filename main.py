@@ -1,7 +1,6 @@
 import openpyxl
 import time
 import schedule
-import random
 from airtable import Airtable
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
@@ -9,7 +8,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support.ui import Select
 
 def excel_to_dict(excel_path, headers=[]):
     wb = openpyxl.load_workbook(excel_path)
@@ -30,7 +28,7 @@ def excel_to_dict(excel_path, headers=[]):
 
 def go_to_givelab(username,user_password,giveaway_url):
     options = Options()
-    options.headless = False
+    options.headless = True
     browser = webdriver.Firefox(options=options)
     browser.get("https://givelab.com/login?ref=https%3A%2F%2Fgivelab.com%2F")
 

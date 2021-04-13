@@ -1,0 +1,6 @@
+Create a venv and install requirements
+pip install -r requirements.txt
+store credentials in data.xlsx in Sheet1, with columns:
+email password
+
+urls are in airtable
