@@ -2,6 +2,7 @@ import openpyxl
 import time
 import schedule
 import random
+from airtable import Airtable
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
@@ -58,18 +59,27 @@ def go_to_givelab(username,user_password,giveaway_url):
             browser.quit()
         except TimeoutException:
             print("Timed out waiting for page to load")
+
 def daily_mission():
-    selhdrs=["email","password","url"]
-    task_list =  excel_to_dict('data.xlsx',selhdrs)
-    for task in task_list:
-        go_to_givelab(task["email"],task["password"],task["url"])
-        time.sleep(10)
+    selhdrs=["email","password"]
+    user_list =  excel_to_dict('data.xlsx',selhdrs)
 
-RANDOM_TIMES = ["08:00","08:01","08:02","08:03","08:04","08:05","08:06","08:07","08:08","08:09","08:10","08:11","08:12"]
+    airtable = Airtable('appOHsYryKh7fcZsF', 'urlTable',api_key="keyrErNCsKQjt5BB2")
+    airtable_dict = airtable.get_all(view='elamUrls', sort='url')
+    url_list = []
+    for row in airtable_dict:
+        if row["fields"]:
+            url_list.append(row["fields"]["url"])
 
-schedule.every().day.at(random.choice(RANDOM_TIMES)).do(daily_mission)
+    for user in user_list:
+        for url in url_list:
+            go_to_givelab(user["email"],user["password"],url)
+            time.sleep(10)
 
-
-while True:
-    schedule.run_pending()
-    time.sleep(30)
+daily_mission()
+# schedule.every(1450).minutes.do(daily_mission)
+#
+#
+# while True:
+#     schedule.run_pending()
+#     time.sleep(30)
