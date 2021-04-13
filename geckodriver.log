@@ -1,0 +1,163 @@
+1618309457358	geckodriver	INFO	Listening on 127.0.0.1:41251
+1618309458285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevWRz1O"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618309463229	Marionette	INFO	Listening on port 37571
+1618309463432	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1618309476374	Marionette	INFO	Stopped listening on port 37571
+1618309488712	geckodriver	INFO	Listening on 127.0.0.1:54539
+1618309488715	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDoXQrd"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618309490751	Marionette	INFO	Listening on port 35035
+1618309490842	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://givelab.com/cdn-cgi/bm/cv/669835187/api.js, line 25: NS_ERROR_NOT_INITIALIZED: 
+1618309492258	Marionette	INFO	Stopped listening on port 35035
+1618309502945	geckodriver	INFO	Listening on 127.0.0.1:35037
+1618309502948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileY3uSuT"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618309505088	Marionette	INFO	Listening on port 40343
+1618309505175	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618309521240	Marionette	INFO	Stopped listening on port 40343
+1618309598432	geckodriver	INFO	Listening on 127.0.0.1:38461
+1618309598435	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefiDomE"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618309600722	Marionette	INFO	Listening on port 44195
+1618309600768	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0xB70006,name=PWebSocket::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1618309608818	Marionette	INFO	Stopped listening on port 44195
+1618309741037	geckodriver	INFO	Listening on 127.0.0.1:39055
+1618309741041	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePGmKuu"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618309743089	Marionette	INFO	Listening on port 43309
+1618309743163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618309749430	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1618310004886	geckodriver	INFO	Listening on 127.0.0.1:54711
+1618310005906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNiRNFv"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618310008199	Marionette	INFO	Listening on port 39987
+1618310008253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618310020411	Marionette	INFO	Stopped listening on port 39987
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618310115583	geckodriver	INFO	Listening on 127.0.0.1:45149
+1618310115586	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBSIVtN"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618310117410	Marionette	INFO	Listening on port 44513
+1618310117508	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618310128902	Marionette	INFO	Stopped listening on port 44513
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1618310184168	Marionette	INFO	Stopped listening on port 43309
+1618310728297	geckodriver	INFO	Listening on 127.0.0.1:33527
+1618310729298	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejKBdJX"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618310731837	Marionette	INFO	Listening on port 42875
+1618310731922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618310743576	geckodriver	INFO	Listening on 127.0.0.1:59803
+1618310744580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXuZN8L"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618310746858	Marionette	INFO	Listening on port 45757
+1618310746906	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618310752977	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618310752979	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618310752985	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618310752988	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618310752990	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618310752994	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618310752996	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1618310761581	Marionette	INFO	Stopped listening on port 45757
+1618310763725	Marionette	INFO	Stopped listening on port 42875
+1618310794491	geckodriver	INFO	Listening on 127.0.0.1:60925
+1618310794495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYUuVUl"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618310796403	Marionette	INFO	Listening on port 37745
+1618310796510	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618310809453	Marionette	INFO	Stopped listening on port 37745
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1618310810005	geckodriver	INFO	Listening on 127.0.0.1:35767
+1618310811009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3g3970"
+[GFX1-]: More than 1 GPU detected via PCI, cannot deduce vendor
+[GFX1-]: PCI candidate 0x8086/0x3ea0
+[GFX1-]: PCI candidate 0x1002/0x6665
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618310813161	Marionette	INFO	Listening on port 37075
+1618310813227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618310815746	Marionette	INFO	Stopped listening on port 37075
