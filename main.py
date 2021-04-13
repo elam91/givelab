@@ -77,9 +77,9 @@ def daily_mission():
             time.sleep(10)
 
 daily_mission()
-# schedule.every(1450).minutes.do(daily_mission)
-#
-#
-# while True:
-#     schedule.run_pending()
-#     time.sleep(30)
+schedule.every(1450).minutes.do(daily_mission)
+
+
+while True:
+    schedule.run_pending()
+    time.sleep(30)
